@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.150);
+}
+
+.mylogo {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.navbar a {
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.home {
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 50);
+    padding: 70px 10%;
+}
+
+
+.Gaming{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.150);
+}
+
+.articulo {
+    position: relative; /* Añade posición relativa al contenedor del artículo */
+    margin: 20px;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px; /* Define un ancho fijo para cada artículo */
+}
+
+.articulo img {
+    width: 225px; /* Establece un ancho fijo */
+    height: 150px; /* Establece una altura fija */
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Agrega bordes redondeados */
+}
+
+
+.articulo h3 {
+    font-size: 16px; /* Reduce el tamaño del texto */
+    margin-bottom: 5px; /* Ajusta el margen inferior del título */
+}
+
+.articulo a {
+    text-decoration: none; /* Elimina la decoración de los enlaces */
+    color: inherit; /* Hereda el color del texto del contenedor */
+    cursor: pointer; /* Cambia el cursor al puntero al pasar sobre el enlace */
+}
+
+.calendario {
+    position: absolute; /* Posición absoluta en relación con el contenedor padre */
+    bottom: 5px; /* Ajusta la distancia desde la parte inferior */
+    left: 5px; /* Ajusta la distancia desde el lado izquierdo */
+    font-size: 80%;
+    text-align: left;
+}
+
+
+
+
+
+footer {
+    position:unset;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.150);
+    padding: 20px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px; 
+}
+
+.social-icons img {
+    width: 30px; 
+    height: auto; 
+}

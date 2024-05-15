@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.150);
+}
+
+.mylogo {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.navbar a {
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.prods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.productos {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.Producto1,
+.Producto2,
+.Producto3,
+.Producto4,
+.Producto5 {
+    width: 250px;
+    margin: 20px; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column; /* Para alinear el texto debajo de las imágenes */
+    align-items: center; /* Para centrar el contenido horizontalmente */
+    border: 2px solid #ccc; /* Agrega un borde de 2px de ancho y color gris */
+    padding: 10px; /* Añade un espacio interno de 10px alrededor del contenido */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.150);
+}
+
+.Producto1 img,
+.Producto2 img,
+.Producto3 img,
+.Producto4 img,
+.Producto5 img {
+    width: 100%; /* Para que todas las imágenes ocupen el 100% del contenedor */
+    height: auto; 
+}
+
+.botones{
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #ccc;
+}
+
+.botones:hover{
+    letter-spacing:  3PX;
+    background-color: blue;
+    color: #fff;
+    box-shadow: #5d5d5d 0px 7px 29px 0px;
+}
+
+
+footer {
+    position:unset;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.150);
+    padding: 20px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px; 
+}
+
+.social-icons img {
+    width: 30px; 
+    height: auto; 
+}

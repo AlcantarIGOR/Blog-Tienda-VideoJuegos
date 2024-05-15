@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.150);
+}
+
+.mylogo {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.navbar a {
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.contact-background {
+    width: 25%;
+    height: 100%;
+    background-color: #57cca5b6;
+    border-radius: 10px;
+    padding: 20px; /* Añadido para espacio interno */
+}
+
+.ubi, .celu, .correo {
+    width: 20px; /* Tamaño deseado para las imágenes */
+    height: auto; /* Esto mantiene la proporción original de las imágenes */
+    margin-right: 10px; /* Espacio a la derecha de las imágenes para separarlas del texto */
+}
+
+.contact-background p {
+    margin-bottom: 10px; /* Espacio inferior entre los párrafos */
+    display: flex; /* Para alinear horizontalmente el texto e imagen */
+    align-items: center; /* Alinea verticalmente el texto e imagen */
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0; /* Cambiado de 100px a 0 */
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.150);
+}
+
+.contact h2 {
+    margin-bottom: 20px; 
+}
+
+.contact input {
+    margin-bottom: 15px; 
+    padding: 10px; 
+    width: 300px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact textarea {
+    margin-bottom: 15px; 
+    padding: 10px; 
+    width: 300px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.botton:active {
+    background-color: aqua;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.150);
+    padding: 20px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px; 
+}
+
+.social-icons img {
+    width: 30px; 
+    height: auto; 
+}
